@@ -50,14 +50,19 @@ I’ve seen how many people in society struggle to express their feelings online
 `git clone https://github.com/siddhantrkokate/hiddenhive.git`
 
 ## Backend (PHP + MySQL)
-Set up your local server using XAMPP or similar
-Import the SQL file into your database
-Update database credentials in backend files (config.php or similar)
-Make sure the API endpoints are running correctly
+
+*  Set up your local server using XAMPP or similar
+*  Import the SQL file into your database
+*  Update database credentials in backend files (config.php or similar)
+*  Make sure the API endpoints are running correctly
 
 ## AI Integration
-If using an external API, add your API keys in a .env or config file
-Or plug in your custom logic
+
+*  If using an external API, add your API keys in a .env or config file
+*  Or plug in your custom logic
+
+
+
 
 # Getting Started with Create React App
 
