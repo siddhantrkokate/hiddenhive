@@ -1,3 +1,51 @@
+HiddenHives 🐝
+A safe, anonymous space to be heard — powered by ReactJS, PHP, MySQL, and AI.
+About HiddenHives
+HiddenHives is a community sharing platform where users can post thoughts, struggles, or ask for help — completely anonymously. No login required. Built as my first ReactJS project, HiddenHives combines a thoughtful user experience with AI integration and a custom backend to keep the community safe and meaningful.
+🚀 Live Demo
+Check it out here: Live on Netlify
+💡 Inspiration
+I’ve seen how many people in society struggle to express their feelings online — especially on platforms that require logins or track user data. HiddenHives is my attempt to create an open, welcoming space where anyone can speak freely and be heard — no questions asked. It also served as a practical showcase of my frontend and backend skills.
+🔍 Features
+📝 Anonymous posting — no login needed
+🧠 AI content analysis to detect harmful or unsafe posts
+🗂 Auto-generated summaries for quick reading
+🏷 Dynamic categories and emotion-based symbols
+💬 Comment system for open discussions
+🔎 Search functionality to explore shared experiences
+📬 Simple, clean UI built with React
+🛠 Tech Stack
+Frontend
+ReactJS
+HTML/CSS
+JavaScript
+Backend
+PHP
+MySQL
+RESTful APIs
+AI content analysis (custom logic / external API integration)
+Other
+Hosted on Netlify
+Version 1 prototype
+Open-source & non-commercial
+🧪 Running Locally
+Clone the repository:
+Bash
+git clone https://github.com/your-username/hiddenhives.git
+Frontend (React)
+Bash
+cd frontend
+npm install
+npm start
+Backend (PHP + MySQL)
+Set up your local server using XAMPP or similar
+Import the SQL file into your database
+Update database credentials in backend files (config.php or similar)
+Make sure the API endpoints are running correctly
+AI Integration
+If using an external API, add your API keys in a .env or config file
+Or plug in your custom logic
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
