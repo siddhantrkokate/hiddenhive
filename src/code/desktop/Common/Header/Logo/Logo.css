@@ -1,0 +1,12 @@
+
+.HeaderLogo{
+  margin-right: auto;
+  font-size: 20px;
+color: white;
+}
+
+@media screen and (max-width: 900px){
+  .HeaderLogo{
+    font-size: 21px;
+  }
+}

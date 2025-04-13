@@ -1,0 +1,88 @@
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.Heading{
+    padding-bottom: 20px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 400px;
+    padding: 10px 20px;
+    border: 0.1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.inputBox:focus {
+    outline: 2px solid #c8eb00; /* This is a violet shade */
+  }
+  
+.detailContent{
+    width: 400px;
+    padding: 10px 20px;
+    border: 0.1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.detailContent:focus{
+    outline: 2px solid #c8eb00;
+}
+
+.submit{
+    width: calc(400px + 40px);
+    padding: 10px 20px;
+    border: 0.1px solid #c8eb00;
+    background-color: #c8eb00;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .inputBox{
+        width: 300px;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .detailContent{
+        width: 300px;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .submit{
+        width: calc(100% + 40px);
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .formContainer{
+        max-width: calc(100% - 80px);
+        padding: 20px;
+    }
+}

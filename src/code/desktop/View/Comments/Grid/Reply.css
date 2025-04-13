@@ -1,0 +1,10 @@
+.ReplyGridContainer{
+    margin: 10px 0px;
+    background-color: #e0e0e0;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 70px;
+    display: none;
+}

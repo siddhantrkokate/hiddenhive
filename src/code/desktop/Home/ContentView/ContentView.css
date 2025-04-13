@@ -1,0 +1,27 @@
+.ContentViewContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Equal space between items */
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.ContentViewContainer > * {
+  flex: 1 1 calc(25% - 16px); /* 4 items per row with spacing */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .ContentViewContainer > * {
+    flex: 1 1 calc(100% - 16px);
+  }
+}
+
+body {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

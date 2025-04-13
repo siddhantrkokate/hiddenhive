@@ -1,0 +1,11 @@
+.ViewContainer {
+    display: flex;
+    width: calc(100%);
+}
+
+
+@media screen and (max-width: 900px) {
+    .ViewContainer{
+        display: inline-block;
+    }
+}

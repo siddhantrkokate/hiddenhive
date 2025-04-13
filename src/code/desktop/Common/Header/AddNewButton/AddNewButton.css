@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Material Icons';
+    src: url('../../../../icons/Material_Icons_Round/MaterialIconsRound-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .material-icons-add {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    display: inline-block;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+  }  
+
+  a{
+    text-decoration: none;
+  }
+
+  .AddNewButtonHeader{
+    font-size: 12px;
+    background-color: #c8eb00;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 60px;
+    text-decoration: none;
+  }
+
+  .AddButtonText{
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width: 900px){
+    .AddButtonText{
+      display: none
+    }
+    .AddNewButtonHeader{
+      padding: 5px;
+      margin-left: 25px;
+    }
+    .material-icons-add{
+      font-size: 25px;
+    }
+  }

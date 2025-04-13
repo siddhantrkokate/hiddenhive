@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Material Icons';
+    src: url('../../../../icons/Material_Icons_Round/MaterialIconsRound-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .material-icons-search {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    direction: ltr;
+  }
+  
+  .SearchButtonHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .SearchButtonText{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .SearchButtonText{
+      display: none;
+    }
+    .searchButtonIcon{
+      font-size: 25px;
+      margin-right: -5px;
+    }
+  }

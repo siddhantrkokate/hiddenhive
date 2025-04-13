@@ -1,0 +1,30 @@
+.SearchBoxContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 20px 0px;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.SearchInputBox{
+    width: calc(100% - 80px);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: 0.1px solid #ddd;
+    outline: none;
+}
+
+@media screen and (max-width: 900px){
+    .SearchInputBox{
+        font-size: 16px;
+    }
+}
